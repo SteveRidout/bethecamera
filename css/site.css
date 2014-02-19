@@ -12,12 +12,7 @@ body {
 /* ---- Generic ---- */
 
 ul {
-	list-style-type: none;
-	padding: 0;
-}
-ul.bullets {
-	list-style-type: disc;
-	margin-left: 20px;
+	line-height: 1.6;
 }
 
 h1 {
@@ -46,11 +41,6 @@ h4 {
 	padding: 0;
 }
 
-ul {
-	margin: 0;
-	padding: 0;
-}
-
 a {
 	color: #29b;
 }
@@ -62,6 +52,8 @@ table {
 /* ---- Title ---- */
 
 #titleContainer {
+	text-align: center;
+
 	background-color: #222222;
 	color: #3be;
 	margin: 0 0 20px 0;
@@ -84,17 +76,16 @@ h1 a {
 }
 
 #titleContainer h2 {
-	text-align: center;
 	padding: 0 0 10px 0;
 }
 
 /* ---- Top Container ---- */
 
 #topContainer {
-	position: relative;
 	margin: 0 auto 0 auto;
 
 	width: 900px;
+	text-align: center;
 }
 
 /* ---- Simulation ---- */
@@ -302,5 +293,8 @@ h1 a {
 
 #footer a {
 	color: #3be;
+}
+#footer a:hover {
+	color: #6df;
 }
 
