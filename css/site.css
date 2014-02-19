@@ -1,0 +1,306 @@
+
+body {
+	position: relative;
+	color: #222;
+
+	margin: 0;
+	padding: 0;
+
+	font-family: "Arial", "Helvetica", sans-serif;
+}
+
+/* ---- Generic ---- */
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+ul.bullets {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+h1 {
+	margin: 10px 0 8px 0;
+	padding: 0;
+}
+
+h2 {
+	margin: 25px 0 15px 0;
+	padding: 0;
+}
+
+h2 select {
+	font-size: 18px;
+}
+
+h3 {
+	margin: 18px 0 8px 0;
+	padding: 0;
+}
+
+h4 {
+	margin: 0;
+	margin-top: 10px;
+
+	padding: 0;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #29b;
+}
+
+table {
+	width: 100%;
+}
+
+/* ---- Title ---- */
+
+#titleContainer {
+	background-color: #222222;
+	color: #3be;
+	margin: 0 0 20px 0;
+
+	box-shadow: 0 5px 5px #888888;
+}
+
+h1 {
+	position: relative;
+	width: 900px;
+	margin: 0 auto 0 auto;
+	padding: 15px 0 0 0;
+
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 48px;
+}
+h1 a {
+	text-decoration: none;
+	color: #3be;
+}
+
+#titleContainer h2 {
+	text-align: center;
+	padding: 0 0 10px 0;
+}
+
+/* ---- Top Container ---- */
+
+#topContainer {
+	position: relative;
+	margin: 0 auto 0 auto;
+
+	width: 900px;
+}
+
+/* ---- Simulation ---- */
+
+#simulationContainer {
+	position: relative;
+	width: 900px;
+
+	margin: 20px auto 20px auto;
+	padding: 0px 20px 0 20px;
+}
+
+#scene {
+	position: relative;
+	clear: both;
+}
+
+#sceneInfo {
+	position: relative;
+
+	margin: 0 0 0 300px;
+
+	width: 550px;
+	padding: 8px 10px 0 10px;
+}
+
+#sceneInfo table {
+	width: 430px;
+}
+
+#cameraContainer {
+	position: relative;
+	background-color: #222222;
+	background-image: url('/content/darkLeather.png');
+
+	clear: both;
+
+	color: #aaaaaa;
+
+	margin: 0 auto 0 auto;
+
+	min-height: 400px;
+	padding: 20px;
+
+	border-radius: 15px;
+
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#leftColumn {
+	position: absolute;
+
+	top: 20px;
+	width: 280px;
+}
+
+#rightColumn {
+	position: relative;
+	float: right;
+	width: 570px;
+}
+#display {
+	position: relative;
+
+	background-color: #000000;
+
+	border-style: solid;
+	border-width: 5px;
+	border-color: #222222;
+	border-radius: 15px;
+
+	width: 570px;
+	height: 390px;
+}
+
+#loading {
+	position: relative;
+	top: 100px;
+	text-align: center;
+
+	color: white;
+
+	z-index: 10;
+
+	text-shadow: 0 0 4px #000000;
+}
+
+#largeCanvas {
+	position: absolute;
+
+	left: 15px;
+	top:  15px;
+}
+
+.controlPanel {
+	position: absolute;
+	left: 0;
+	top: 0;
+
+	padding: 8px;
+
+	font-family: "Arial", sans-serif;
+	font-size: 18px;
+
+	background-color: #000000;
+
+	border-style: solid;
+	border-width: 5px;
+	border-color: #222222;
+	border-radius: 15px;
+}
+.controlPanel output {
+	border: 0;
+	color: #eebb33;
+}
+
+.controlPanel select {
+	background-color: #dddddd;
+	color: #000000;
+	
+	font-family: "Arial", sans-serif;
+	font-size: 16px;
+}
+
+.controlPanel table td {
+	padding: 2px 0 2px 0;
+}
+
+.controlPanel label {
+	font-size: 16px;
+	color: #888888;
+}
+
+.controlPanel label[data-focus] {
+	font-size: 14px;
+}
+.controlPanel label[data-mode] {
+	font-size: 20px;
+}
+
+.controlPanel label[data-focus],
+.controlPanel label[data-mode] {
+	color: #886522;
+}
+
+.controlPanel label[data-focus].selected,
+.controlPanel label[data-mode].selected {
+	color: #eebb33;
+}
+
+.slider {
+	font-size: 14px;
+}
+
+.category {
+	display: none;
+}
+
+.category.selected {
+	display: block;
+}
+
+#simulationError {
+	position: absolute;
+	top: 260px;
+	color: red;
+}
+
+#simulationStatus {
+	position: absolute;
+	top: 290px;
+	color: #eea;
+}
+
+/* ---- Bottom ---- */
+
+#bottomContent {
+	position: relative;
+	width: 900px;
+	margin: 40px auto 0 auto;
+}
+
+/* ---- Footer ---- */
+
+#footerContainer {
+	position: relative;
+	clear: both;
+	margin-top: 30px;
+	border-top-style: solid;
+	border-top-colour: black;
+	border-top-width: 1px;
+	background-color: #222222;
+	color: #aaaaaa;
+}
+
+#footer {
+	position: relative;
+
+	width: 900px;
+	margin: 0 auto 0 auto;
+	
+	clear: both;
+	padding: 25px 0 25px 0;
+}
+
+#footer a {
+	color: #3be;
+}
+

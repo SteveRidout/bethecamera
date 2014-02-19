@@ -1,0 +1,17 @@
+<table>
+	<tr>
+		<td>Focal length</td><td>{{focalLength}}mm (35mm equivalent)</td>
+	</tr>
+	<tr>
+		<td>Exposure Value</td><td>{{sceneEV}}EV</td>
+	</tr>
+	{{#layers}}
+	<tr>
+		<td>Distance to {{name}}</td><td>{{focalDistance}}m</td>
+	</tr>
+	{{/layers}}
+</table>
+<p>
+{{description}}
+{{^description}}No description{{/description}}
+</p>
