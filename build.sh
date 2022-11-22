@@ -7,7 +7,7 @@
 
 if [ "$1" == "" ]
 then
-	BUILD_DIR="../bethecamera.com"
+	BUILD_DIR="./build"
 else
 	BUILD_DIR="$1"
 fi
